@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ARTiles.unity
+    guid: b989ef0bbfa45324a8d3657fc72a8e85
+  - enabled: 1
+    path: Assets/Scenes/ARMeasure.unity
+    guid: 6a637f6f1bbb3b74dbf4ef165914ee13
+  - enabled: 1
+    path: Assets/Scenes/ARFurniture.unity
+    guid: ec984d44f9c463b41a8e34606c74d384
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ba2fc71c36c77af4b8dc58505ee41668, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 824dd9570d3e4814eb9407839b590db9, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 70685b8937f37564d887c84e896edc88, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: cb34ee1304347f44c971b5896c0c30f6, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5d016ca302a02e54b8ce106a0cfc8c1d, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2e9e06349c2c38e428f126c4ef2a64e7, type: 2}
