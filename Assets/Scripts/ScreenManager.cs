@@ -19,4 +19,13 @@ public class ScreenManager : MonoBehaviour
    {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +3);
    }
+
+   public void BackARFurniture()
+   {
+       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+   }
+
+   public void BackARTiles(){
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+   }
 }
